@@ -17,8 +17,7 @@ def gets_melon_totals(file, daynum):
     melon_name, melon_count, amount = fields
 
     # returns string containing summary of info
-    return f"""Day {daynum}: Delivered {melon_count} {melon_name}s for total 
-    of ${amount}"""
+    return f"Day {daynum}: Delivered {melon_count} {melon_name}s for total of ${amount}"
     
     # closes file
     file.close()
